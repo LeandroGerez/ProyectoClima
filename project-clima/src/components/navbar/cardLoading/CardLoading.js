@@ -103,7 +103,7 @@ const CardLoading = ({ReloadData, clima, EventData, forecast}) => {
                         
                     </div>
                 </div>
-                <footer> COPYRIGHT 2022</footer>
+                <footer className='text-light'> COPYRIGHT 2022</footer>
             </div>
             
         ):(
