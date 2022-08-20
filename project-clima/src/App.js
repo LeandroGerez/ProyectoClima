@@ -12,7 +12,7 @@ function App() {
       <NavBar />
       <Routes>
       <Route path='/' element={<ClimaContainer/>} />
-      <Route path='/clima' element={<ClimaContainer/>}/>
+      <Route path='/clima' element={<h1>ERROR 404</h1> }/>
       </Routes>
       </BrowserRouter>
       

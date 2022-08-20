@@ -4,11 +4,17 @@
 }
 
 body{
-    background-color: rgb(73, 140, 143);
+    background-color: rgb(96, 126, 170);
 }
+
+nav{
+    background-color: rgb(28, 56, 121);
+}
+
 
 .card{
     max-width: 100%;
+
 }
 
 .card-title{
@@ -18,12 +24,14 @@ body{
     margin-left: 20px;
     padding-left: 60px;
     
+    
 }
 
 .card-date{
     position: absolute;
     padding-left: 110px;
     margin-top: 300px;
+    
 }
 
 .card-temp{
@@ -31,11 +39,13 @@ body{
     padding: 50px; 
     margin-top: 330px;
     font-size: 60px;
+    
 }
 
 .card-desc{
     position: absolute;
     padding-left: 10px;
+    
     
 
 }
