@@ -1,14 +1,14 @@
 import React, {useState} from 'react'
-import { Link } from 'react-router-dom';
+
 
 const ClimaForm = ({newUbicacion}) => {
     const [ciudad, setCiudad] = useState ("");
     
     const onSubmit =(e) =>{
         e.preventDefault();
-        console.log({ciudad});
+        
        
-        if(ciudad === "" || !ciudad) return;  
+        if(ciudad == '' || !ciudad) return;  
         newUbicacion (ciudad)     
         
     }
